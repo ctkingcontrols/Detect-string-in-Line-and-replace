@@ -1,0 +1,128 @@
+
+
+//main transfer
+
+IO_1799_CARD_OUT[77].Output_3 := fbF_13_700_0005_01_0.HW_Outputs.MCC[2].DriveRun[1];//3 Run Signal to Transfer Rollers (motor 3) - trans rollers
+
+IO_1799_CARD_OUT[77].Output_4 := fbF_13_700_0005_01_0.HW_Outputs.MCC[1].DriveRun[1] AND fbF_13_700_0005_01_0.HW_Outputs.MCC[1].DriveRun[2] ;//4 Run signal to Belts (motors 1 and 2) - trans belts
+
+
+
+IO_1799_CARD_OUT[77].Output_5 := fbF_13_700_0005_01_0.HW_Outputs.MCC[1].DiscreteOut[1];//5 Raise Transfer
+
+IO_1799_CARD_OUT[77].Output_10 := NOT SafetyOutput.EmergencyCircuitOk.SG700 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+
+
+
+
+
+
+
+
+//wing (some outputs go to the previous 1799 card)
+
+
+
+IO_1799_CARD_OUT[77].Output_6 := fbF_13_700_0005_02_0.HW_Outputs.MCC[1].DiscreteOut[1]; //previous card - 6 Raise Wing Bed LH
+
+IO_1799_CARD_OUT[77].Output_7 := fbF_13_700_0005_02_0.HW_Outputs.MCC[1].DriveRun[1]; //previous card - 7 Run Signal to Wing BED LH (motor 4) - LH wing rollers
+
+IO_1799_CARD_OUT[78].Output_1 :=  NOT SafetyOutput.EmergencyCircuitOk.SG700 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IO_1799_CARD_OUT[79].Output_1 := fbF_13_700_0015_01_0.HW_Outputs.MCC[1].DriveRun[1]; //drive zone 1  //ctking
+
+IO_1799_CARD_OUT[79].Output_2 := replace; //ES Zone 1    //ctking
+
+IO_1799_CARD_OUT[79].Output_3 := fbF_13_700_0015_01_0.HW_Outputs.MCC[1].DriveRun[2]; //drive zone 2  //ctking
+
+IO_1799_CARD_OUT[79].Output_4 := replace; //ES Zone 2    //ctking
+
+IO_1799_CARD_OUT[79].Output_5 := fbF_13_700_0015_01_0.HW_Outputs.MCC[2].DriveRun[1]; //drive zone 3  //ctking
+
+IO_1799_CARD_OUT[79].Output_6 := replace; //ES Zone 3    //ctking
+
+
+
+IO_1799_CARD_OUT[80].Output_1 := fbF_13_700_0015_01_0.HW_Outputs.MCC[2].DriveRun[2]; //drive zone 4  /ctking
+
+IO_1799_CARD_OUT[80].Output_2 := replace; //ES Zone 4    ctking
+
+
+
+
+
+IO_1799_CARD_OUT[80].Output_3 := fbF_13_700_0015_01_0.HW_Outputs.MCC[3].DriveRun[1]; //drive zone 5   //ctking
+
+IO_1799_CARD_OUT[80].Output_4 := replace; //ES Zone 5     //ctking
+
+IO_1799_CARD_OUT[80].Output_5 := fbF_13_700_0015_01_0.HW_Outputs.MCC[3].DriveRun[2]; //drive zone 6   //ctking
+
+IO_1799_CARD_OUT[80].Output_6 := replace; //ES Zone 6     //ctking
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+IO_1799_CARD_OUT[81].Output_1 := fbF_13_700_0025_01_0.HW_Outputs.MCC[1].DriveRun[1]; //drive zone 1   //ctking
+
+IO_1799_CARD_OUT[81].Output_2 := replace; //ES Zone 1     //ctking
+
+IO_1799_CARD_OUT[81].Output_3 := fbF_13_700_0025_01_0.HW_Outputs.MCC[1].DriveRun[2]; //drive zone 2   //ctking
+
+IO_1799_CARD_OUT[81].Output_4 := replace; //ES Zone 2     //ctking
+
+IO_1799_CARD_OUT[81].Output_5 := fbF_13_700_0025_01_0.HW_Outputs.MCC[2].DriveRun[1]; //drive zone 3   //ctking
+
+IO_1799_CARD_OUT[81].Output_6 := replace; //ES Zone 3     //ctking
+
+IO_1799_CARD_OUT[81].Output_7 := fbF_13_700_0025_01_0.HW_Outputs.MCC[2].DriveRun[2]; //drive zone 4   //ctking
+
+IO_1799_CARD_OUT[81].Output_8 := replace; //ES Zone 4     //ctking
+
+
+
+
+
+IO_1799_CARD_OUT[82].Output_1 := fbF_13_700_0025_01_0.HW_Outputs.MCC[3].DriveRun[1]; //drive zone 5  ctking
+
+IO_1799_CARD_OUT[82].Output_2 := replace; //ES Zone 5    ctking
+
+IO_1799_CARD_OUT[82].Output_3 := fbF_13_700_0025_01_0.HW_Outputs.MCC[3].DriveRun[2]; //drive zone 6  ctking
+
+IO_1799_CARD_OUT[82].Output_4 := replace; //ES Zone 6    ctking
+
+
+
+IO_1799_CARD_OUT[82].Output_8 := PBL1_13_700_0025.Light_Yellow; //ctking
+

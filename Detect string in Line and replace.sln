@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Detect string in Line and replace", "Detect string in Line and replace.pyproj", "{C88E0A28-543C-469C-B6A5-CC424C6CADB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C88E0A28-543C-469C-B6A5-CC424C6CADB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88E0A28-543C-469C-B6A5-CC424C6CADB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB38920C-ABC4-4FE4-BA1F-DA553B004C03}
+	EndGlobalSection
+EndGlobal

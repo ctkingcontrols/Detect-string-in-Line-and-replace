@@ -12,13 +12,13 @@ for sg in range(800):
             for line in f:
                 if ('Direction' in line):
                     if line[18] ==  ']':
-                        newline = line[:32] + f' NOT SafetyOutput.EmergencyCircuitOk.SG{str_sg} OR NOT SafetyOutput.EmergencyCircuityOk.AE{ae};'
+                        newline = line[:32] + f' NOT SafetyOutput.EmergencyCircuitOk.SG{str_sg} OR NOT SafetyOutput.EmergencyCircuitOk.AE{ae};'
                         line = newline
                     elif line[19] ==  ']':
-                        newline = line[:33] + f' NOT SafetyOutput.EmergencyCircuitOk.SG{str_sg} OR NOT SafetyOutput.EmergencyCircuityOk.AE{ae};'
+                        newline = line[:33] + f' NOT SafetyOutput.EmergencyCircuitOk.SG{str_sg} OR NOT SafetyOutput.EmergencyCircuitOk.AE{ae};'
                         line = newline
                     else:
-                        newline = line[:34] + f' NOT SafetyOutput.EmergencyCircuitOk.SG{str_sg} OR NOT SafetyOutput.EmergencyCircuityOk.AE{ae};'
+                        newline = line[:34] + f' NOT SafetyOutput.EmergencyCircuitOk.SG{str_sg} OR NOT SafetyOutput.EmergencyCircuitOk.AE{ae};'
                         line = newline
                 new_lines.append(line)
 

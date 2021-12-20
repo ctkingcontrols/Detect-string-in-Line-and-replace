@@ -1,6 +1,6 @@
 IO_1799_CARD_OUT[136].Output_1 := fbF_13_101_0005_01_0.HW_Outputs.MCC.DriveRun[1]; //ctking
 
-IO_1799_CARD_OUT[136].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[136].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 
 
 IO_1799_CARD_OUT[136].Output_4 := fbF_13_101_0005_01_0.HW_Outputs.MCC.DriveRun[1];  //ctking
@@ -17,21 +17,21 @@ IO_1799_CARD_OUT[136].Output_4 := fbF_13_101_0005_01_0.HW_Outputs.MCC.DriveRun[1
 
 IO_1799_CARD_OUT[137].Output_1 := fbF_13_101_0010_01_0.HW_Outputs.MCC.DriveRun[1]; //ctking
 
-IO_1799_CARD_OUT[137].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[137].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[137].Output_3 := fbF_13_101_0010_01_0.HW_Outputs.MCC.DriveRun[1] ;  //ctking
 
 
 
 IO_1799_CARD_OUT[137].Output_4 := fbF_13_101_0015_01_0.HW_Outputs.MCC.DriveRun[1]; //ctking
 
-IO_1799_CARD_OUT[137].Output_5 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[137].Output_5 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 
 
 
 
 IO_1799_CARD_OUT[137].Output_6 := fbF_13_101_0020_01_0.HW_Outputs.MCC.DriveRun[1]; //ctking
 
-IO_1799_CARD_OUT[137].Output_7 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[137].Output_7 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[137].Output_8 := fbF_13_101_0020_01_0.HW_Outputs.MCC.DriveRun[1] ; //ctking
 
 
@@ -42,13 +42,13 @@ IO_1799_CARD_OUT[137].Output_8 := fbF_13_101_0020_01_0.HW_Outputs.MCC.DriveRun[1
 
 IO_1799_CARD_OUT[138].Output_1 := fbF_13_101_0025_01_0.HW_Outputs.MCC[1].DriveRun[1]; //ctking
 
-IO_1799_CARD_OUT[138].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[138].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[138].Output_3 := fbF_13_101_0025_01_0.HW_Outputs.MCC[1].DriveRun[2]; //ctking
 
-IO_1799_CARD_OUT[138].Output_4 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[138].Output_4 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[138].Output_5 := fbF_13_101_0025_01_0.HW_Outputs.MCC[2].DriveRun[1]; //ctking
 
-IO_1799_CARD_OUT[138].Output_6 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[138].Output_6 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 
 
 IO_13_101_0025_09_0_K1.CnfMsgOut_32Bytes := fbF_13_101_0025_09_0.HW_Outputs.ConfirmedMessaging32ByteOut.CnfMsg_32Bytes; 
@@ -61,32 +61,32 @@ IO_13_101_0025_09_0_K1.PBCMCtrlOut := fbF_13_101_0025_09_0.HW_Outputs.ControlBit
 
 IO_1799_CARD_OUT[139].Output_1 := fbF_13_101_0030_01_0.HW_Outputs.MCC[1].DriveRun[1];  //ctking
 
-IO_1799_CARD_OUT[139].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[139].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[139].Output_3 := fbF_13_101_0030_01_0.HW_Outputs.MCC[1].DriveRun[2];  //ctking
 
-IO_1799_CARD_OUT[139].Output_4 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[139].Output_4 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[139].Output_5 := fbF_13_101_0030_01_0.HW_Outputs.MCC[2].DriveRun[1];  //ctking
 
-IO_1799_CARD_OUT[139].Output_6 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[139].Output_6 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[139].Output_7 := fbF_13_101_0030_01_0.HW_Outputs.MCC[2].DriveRun[2];  //ctking
 
-IO_1799_CARD_OUT[139].Output_8 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[139].Output_8 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 
 
 
 
 IO_1799_CARD_OUT[140].Output_1 := fbF_13_101_0035_01_0.HW_Outputs.MCC[1].DriveRun[1];  //ctking
 
-IO_1799_CARD_OUT[140].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[140].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[140].Output_3 := fbF_13_101_0035_01_0.HW_Outputs.MCC[1].DriveRun[2];  //ctking
 
-IO_1799_CARD_OUT[140].Output_4 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[140].Output_4 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[140].Output_5 := fbF_13_101_0035_01_0.HW_Outputs.MCC[2].DriveRun[1];  //ctking
 
-IO_1799_CARD_OUT[140].Output_6 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[140].Output_6 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[140].Output_7 := fbF_13_101_0035_01_0.HW_Outputs.MCC[2].DriveRun[2];  //ctking
 
-IO_1799_CARD_OUT[140].Output_8 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[140].Output_8 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 
 
 
@@ -95,7 +95,7 @@ IO_1799_CARD_OUT[140].Output_8 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR 
 
 IO_1799_CARD_OUT[141].Output_1 := fbF_13_101_0040_01_0.HW_Outputs.MCC.DriveRun[1];// drive 1         //ctking
 
-IO_1799_CARD_OUT[141].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
+IO_1799_CARD_OUT[141].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG101 OR NOT SafetyOutput.EmergencyCircuityOk.AE13;
 IO_1799_CARD_OUT[141].Output_3 := fbF_13_101_0040_01_0.HW_Outputs.MCC.DriveRun[1]; // drive slave 1  ctking
 
 

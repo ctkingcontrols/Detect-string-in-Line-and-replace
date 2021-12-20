@@ -1,21 +1,21 @@
 
 IO_1799_CARD_OUT[149].Output_1 := fbF_13_601_0005_01_0.HW_Outputs.MCC.DriveRun[1]; //drive function 1
-IO_1799_CARD_OUT[149].Output_2 := replace; //ES function 1
+IO_1799_CARD_OUT[149].Output_2 := fbF_13_601_0005_01_0.HW_Outputs.MCC.Direction[1]; //ES function 1
 IO_1799_CARD_OUT[149].Output_3 := fbF_13_601_0005_02_0.HW_Outputs.MCC.DriveRun[1]; //drive function 2
-IO_1799_CARD_OUT[149].Output_4 := replace; //ES function 2
+IO_1799_CARD_OUT[149].Output_4 := fbF_13_601_0005_02_0.HW_Outputs.MCC.Direction[1]; //ES function 2
 IO_1799_CARD_OUT[149].Output_5 := fbF_13_601_0005_03_0.HW_Outputs.MCC.DriveRun[1]; //drive function 3
-IO_1799_CARD_OUT[149].Output_6 := replace; //ES function 3
+IO_1799_CARD_OUT[149].Output_6 := fbF_13_601_0005_03_0.HW_Outputs.MCC.Direction[1]; //ES function 3
 IO_1799_CARD_OUT[149].Output_7 := fbF_13_601_0005_03_0.HW_Outputs.MCC.DriveRun[2]; //drive slave (to function 3) spur
-IO_1799_CARD_OUT[149].Output_8 := replace; //ES slave (to function 3) spur
+IO_1799_CARD_OUT[149].Output_8 := fbF_13_601_0005_03_0.HW_Outputs.MCC.Direction[2]; //ES slave (to function 3) spur
 
 
 
 IO_1799_CARD_OUT[150].Output_1 := fbF_13_601_0010_01_0.HW_Outputs.MCC[1].DriveRun[1]; //drive function 1
-IO_1799_CARD_OUT[150].Output_2 := replace; //ES function 1
+IO_1799_CARD_OUT[150].Output_2 := fbF_13_601_0010_01_0.HW_Outputs.MCC[1].Direction[1]; //ES function 1
 IO_1799_CARD_OUT[150].Output_3 := fbF_13_601_0010_01_0.HW_Outputs.MCC[1].DriveRun[1]; //drive function 2
-IO_1799_CARD_OUT[150].Output_4 := replace; //ES function 2
+IO_1799_CARD_OUT[150].Output_4 := fbF_13_601_0010_01_0.HW_Outputs.MCC[1].Direction[1]; //ES function 2
 IO_1799_CARD_OUT[150].Output_5 := fbF_13_601_0010_01_0.HW_Outputs.MCC[2].DriveRun[1]; //drive function 3
-IO_1799_CARD_OUT[150].Output_6 := replace; //ES function 3
+IO_1799_CARD_OUT[150].Output_6 := fbF_13_601_0010_01_0.HW_Outputs.MCC[2].Direction[1]; //ES function 3
 //Push Button ??
 //Push Button ??
 
@@ -39,11 +39,11 @@ IO_1799_CARD_OUT[152].Output_3 := fbF_13_601_0015_05_0.HW_Outputs.MCC.DriveRun[1
 
 
 IO_1799_CARD_OUT[153].Output_1 := fbF_13_601_0020_01_0.HW_Outputs.MCC[1].DriveRun[1]; //drive function 1
-IO_1799_CARD_OUT[153].Output_2 := replace; //ES function 1
+IO_1799_CARD_OUT[153].Output_2 := fbF_13_601_0020_01_0.HW_Outputs.MCC[1].Direction[1]; //ES function 1
 IO_1799_CARD_OUT[153].Output_3 := fbF_13_601_0020_01_0.HW_Outputs.MCC[1].DriveRun[1]; //drive function 2
-IO_1799_CARD_OUT[153].Output_4 := replace; //ES function 2
+IO_1799_CARD_OUT[153].Output_4 := fbF_13_601_0020_01_0.HW_Outputs.MCC[1].Direction[1]; //ES function 2
 IO_1799_CARD_OUT[153].Output_5 := fbF_13_601_0020_01_0.HW_Outputs.MCC[2].DriveRun[1]; //drive function 3
-IO_1799_CARD_OUT[153].Output_6 := replace; //ES function 3
+IO_1799_CARD_OUT[153].Output_6 := fbF_13_601_0020_01_0.HW_Outputs.MCC[2].Direction[1]; //ES function 3
 //Push Button ??
 //Push Button ??
 
@@ -69,13 +69,13 @@ IO_1799_CARD_OUT[155].Output_3 := fbF_13_601_0025_05_0.HW_Outputs.MCC.DriveRun[1
 
 
 IO_1799_CARD_OUT[156].Output_1 := fbF_13_601_0030_01_0.HW_Outputs.MCC[1].DriveRun[1]; //drive function 1
-IO_1799_CARD_OUT[156].Output_2 := replace; //ES function 1
+IO_1799_CARD_OUT[156].Output_2 := fbF_13_601_0030_01_0.HW_Outputs.MCC[1].Direction[1]; //ES function 1
 IO_1799_CARD_OUT[156].Output_3 := fbF_13_601_0030_01_0.HW_Outputs.MCC[1].DriveRun[1]; //drive function 2
-IO_1799_CARD_OUT[156].Output_4 := replace; //ES function 2
+IO_1799_CARD_OUT[156].Output_4 := fbF_13_601_0030_01_0.HW_Outputs.MCC[1].Direction[1]; //ES function 2
 IO_1799_CARD_OUT[156].Output_5 := fbF_13_601_0030_01_0.HW_Outputs.MCC[2].DriveRun[1]; //drive function 3
-IO_1799_CARD_OUT[156].Output_6 := replace; //ES function 3
+IO_1799_CARD_OUT[156].Output_6 := fbF_13_601_0030_01_0.HW_Outputs.MCC[2].Direction[1]; //ES function 3
 IO_1799_CARD_OUT[156].Output_7 := fbF_13_601_0030_01_0.HW_Outputs.MCC[2].DriveRun[2]; //drive function 3
-IO_1799_CARD_OUT[156].Output_8 := replace; //ES function 3
+IO_1799_CARD_OUT[156].Output_8 := fbF_13_601_0030_01_0.HW_Outputs.MCC[2].Direction[2]; //ES function 3
 //Push Button ??
 //Push Button ??
 
@@ -101,11 +101,11 @@ IO_1799_CARD_OUT[158].Output_3 := fbF_13_601_0035_05_0.HW_Outputs.MCC.DriveRun[1
 
 
 IO_1799_CARD_OUT[159].Output_1 := fbF_13_601_0040_01_0.HW_Outputs.MCC[1].DriveRun[1]; //drive function 1
-IO_1799_CARD_OUT[159].Output_2 := replace; //ES function 1
+IO_1799_CARD_OUT[159].Output_2 := fbF_13_601_0040_01_0.HW_Outputs.MCC[1].Direction[1]; //ES function 1
 IO_1799_CARD_OUT[159].Output_3 := fbF_13_601_0040_01_0.HW_Outputs.MCC[1].DriveRun[1]; //drive function 2
-IO_1799_CARD_OUT[159].Output_4 := replace; //ES function 2
+IO_1799_CARD_OUT[159].Output_4 := fbF_13_601_0040_01_0.HW_Outputs.MCC[1].Direction[1]; //ES function 2
 IO_1799_CARD_OUT[159].Output_5 := fbF_13_601_0040_01_0.HW_Outputs.MCC[2].DriveRun[1]; //drive function 3
-IO_1799_CARD_OUT[159].Output_6 := replace; //ES function 3
+IO_1799_CARD_OUT[159].Output_6 := fbF_13_601_0040_01_0.HW_Outputs.MCC[2].Direction[1]; //ES function 3
 //Push Button ??
 //Push Button ??
 
@@ -123,13 +123,13 @@ IO_1799_CARD_OUT[160].Output_5 := fbF_13_601_0045_01_0.HW_Outputs.MCC[2].DriveRu
 
 
 IO_1799_CARD_OUT[161].Output_1 := fbF_13_601_0050_01_0.HW_Outputs.MCC.DriveRun[1];//ctking //drive zone 1
-IO_1799_CARD_OUT[161].Output_2 := replace;//ctking //ES Zone 1
+IO_1799_CARD_OUT[161].Output_2 := fbF_13_601_0050_01_0.HW_Outputs.MCC.Direction[1];//ctking //ES Zone 1
 IO_1799_CARD_OUT[161].Output_3 := fbF_13_601_0055_01_0.HW_Outputs.MCC.DriveRun[1]; //ctking//drive zone 1
-IO_1799_CARD_OUT[161].Output_4 := replace; //ctking//ES zone 1
+IO_1799_CARD_OUT[161].Output_4 := fbF_13_601_0055_01_0.HW_Outputs.MCC.Direction[1]; //ctking//ES zone 1
 IO_1799_CARD_OUT[161].Output_5 := fbF_13_601_0055_01_0.HW_Outputs.MCC.DriveRun[2]; //ctking//drive zone 1
 
 IO_1799_CARD_OUT[161].Output_7 := fbF_13_601_0060_01_0.HW_Outputs.MCC.DriveRun[1]; //ctking//drive zone 1
-IO_1799_CARD_OUT[161].Output_8 := replace;//ctking //ES zone 1
+IO_1799_CARD_OUT[161].Output_8 := fbF_13_601_0060_01_0.HW_Outputs.MCC.Direction[1];//ctking //ES zone 1
 IO_1799_CARD_OUT[161].Output_6 := fbF_13_601_0060_01_0.HW_Outputs.MCC.DriveRun[2]; //ctking//drive zone 1
 
 
@@ -137,11 +137,11 @@ IO_13_601_0065_K1.Command_Word := fbF_13_601_0065_01_0.HW_Outputs.ABDrive_Comman
 IO_13_601_0065_K1.FreqCommand := fbF_13_601_0065_01_0.HW_Outputs.FreqCommand;
 
 IO_1799_CARD_OUT[162].Output_1 := fbF_13_601_0105_01_0.HW_Outputs.MCC[1].DriveRun[1];
-IO_1799_CARD_OUT[162].Output_2 := replace;
+IO_1799_CARD_OUT[162].Output_2 := fbF_13_601_0105_01_0.HW_Outputs.MCC[1].Direction[1];
 IO_1799_CARD_OUT[162].Output_3 := fbF_13_601_0105_01_0.HW_Outputs.MCC[1].DriveRun[2];
-IO_1799_CARD_OUT[162].Output_4 := replace;
+IO_1799_CARD_OUT[162].Output_4 := fbF_13_601_0105_01_0.HW_Outputs.MCC[1].Direction[2];
 IO_1799_CARD_OUT[162].Output_5 := fbF_13_601_0105_01_0.HW_Outputs.MCC[2].DriveRun[1];
-IO_1799_CARD_OUT[162].Output_6 := replace;
+IO_1799_CARD_OUT[162].Output_6 := fbF_13_601_0105_01_0.HW_Outputs.MCC[2].Direction[1];
 
 IO_13_601_0105_09_0_K1.CnfMsgOut_32Bytes := fbF_13_601_0105_09_0.HW_Outputs.ConfirmedMessaging32ByteOut.CnfMsg_32Bytes; 
 IO_13_601_0105_09_0_K1.PBCMCtrlOut := fbF_13_601_0105_09_0.HW_Outputs.ControlBitsPLCOutput; 
@@ -150,10 +150,10 @@ IO_13_601_0110_K1.Command_Word := fbF_13_601_0110_01_0.HW_Outputs.ABDrive_Comman
 IO_13_601_0110_K1.FreqCommand := fbF_13_601_0110_01_0.HW_Outputs.FreqCommand;
 
 IO_1799_CARD_OUT[163].Output_1 := fbF_13_601_0115_01_0.HW_Outputs.MCC[1].DriveRun[1];
-IO_1799_CARD_OUT[163].Output_2 := replace;
+IO_1799_CARD_OUT[163].Output_2 := fbF_13_601_0115_01_0.HW_Outputs.MCC[1].Direction[1];
 IO_1799_CARD_OUT[163].Output_3 := fbF_13_601_0115_01_0.HW_Outputs.MCC[1].DriveRun[2];
-IO_1799_CARD_OUT[163].Output_4 := replace;
+IO_1799_CARD_OUT[163].Output_4 := fbF_13_601_0115_01_0.HW_Outputs.MCC[1].Direction[2];
 IO_1799_CARD_OUT[163].Output_5 := fbF_13_601_0115_01_0.HW_Outputs.MCC[2].DriveRun[1];
-IO_1799_CARD_OUT[163].Output_6 := replace;
+IO_1799_CARD_OUT[163].Output_6 := fbF_13_601_0115_01_0.HW_Outputs.MCC[2].Direction[1];
 IO_1799_CARD_OUT[163].Output_7 := fbF_13_601_0115_01_0.HW_Outputs.MCC[2].DriveRun[2];
-IO_1799_CARD_OUT[163].Output_8 := replace;
+IO_1799_CARD_OUT[163].Output_8 := fbF_13_601_0115_01_0.HW_Outputs.MCC[2].Direction[2];

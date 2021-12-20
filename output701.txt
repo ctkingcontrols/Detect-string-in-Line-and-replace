@@ -1,7 +1,5 @@
 
 
-replace
-
 
 
 //main transfer
@@ -58,32 +56,26 @@ IO_1799_CARD_OUT[165].Output_1 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR 
 
 IO_1799_CARD_OUT[166].Output_1 := fbF_13_701_0020_01_0.HW_Outputs.MCC[1].DriveRun[1];
 
-IO_1799_CARD_OUT[166].Output_2 := replace;
-
+IO_1799_CARD_OUT[166].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 IO_1799_CARD_OUT[166].Output_3 := fbF_13_701_0020_01_0.HW_Outputs.MCC[1].DriveRun[2];
 
-IO_1799_CARD_OUT[166].Output_4 := replace;
-
+IO_1799_CARD_OUT[166].Output_4 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 IO_1799_CARD_OUT[166].Output_5 := fbF_13_701_0020_01_0.HW_Outputs.MCC[2].DriveRun[1];
 
-IO_1799_CARD_OUT[166].Output_6 := replace;
-
+IO_1799_CARD_OUT[166].Output_6 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 IO_1799_CARD_OUT[166].Output_7 := fbF_13_701_0020_01_0.HW_Outputs.MCC[2].DriveRun[2];
 
-IO_1799_CARD_OUT[166].Output_8 := replace;
-
+IO_1799_CARD_OUT[166].Output_8 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 
 
 
 
 IO_1799_CARD_OUT[167].Output_1 := fbF_13_701_0025_01_0.HW_Outputs.MCC.DriveRun[1];
 
-IO_1799_CARD_OUT[167].Output_2 := replace;
-
+IO_1799_CARD_OUT[167].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 IO_1799_CARD_OUT[167].Output_3 := fbF_13_701_0025_01_0.HW_Outputs.MCC.DriveRun[2];
 
-IO_1799_CARD_OUT[167].Output_4 := replace;
-
+IO_1799_CARD_OUT[167].Output_4 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 
 
 
@@ -98,12 +90,10 @@ IO_1799_CARD_OUT[167].Output_4 := replace;
 
 IO_1799_CARD_OUT[168].Output_1 := fbF_13_701_0030_01_0.HW_Outputs.MCC.DriveRun[1];
 
-IO_1799_CARD_OUT[168].Output_2 := replace;
-
+IO_1799_CARD_OUT[168].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 IO_1799_CARD_OUT[168].Output_3 := fbF_13_701_0030_01_0.HW_Outputs.MCC.DriveRun[2];
 
-IO_1799_CARD_OUT[168].Output_4 := replace;
-
+IO_1799_CARD_OUT[168].Output_4 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 
 
 
@@ -118,21 +108,16 @@ IO_1799_CARD_OUT[168].Output_4 := replace;
 
 IO_1799_CARD_OUT[169].Output_1 := fbF_13_701_0035_01_0.HW_Outputs.MCC[1].DriveRun[1];
 
-IO_1799_CARD_OUT[169].Output_2 := replace;
-
+IO_1799_CARD_OUT[169].Output_2 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 IO_1799_CARD_OUT[169].Output_3 := fbF_13_701_0035_01_0.HW_Outputs.MCC[1].DriveRun[2];
 
-IO_1799_CARD_OUT[169].Output_4 := replace;
-
+IO_1799_CARD_OUT[169].Output_4 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 IO_1799_CARD_OUT[169].Output_5 := fbF_13_701_0035_01_0.HW_Outputs.MCC[2].DriveRun[1];
 
-IO_1799_CARD_OUT[169].Output_6 := replace;
-
+IO_1799_CARD_OUT[169].Output_6 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 IO_1799_CARD_OUT[169].Output_7 := fbF_13_701_0035_01_0.HW_Outputs.MCC[2].DriveRun[2];
 
-IO_1799_CARD_OUT[169].Output_8 := replace;
-
+IO_1799_CARD_OUT[169].Output_8 :=  NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
 IO_1799_CARD_OUT[169].Output_9 := fbF_13_701_0035_01_0.HW_Outputs.MCC[3].DriveRun[1];
 
-IO_1799_CARD_OUT[169].Output_10 := replace;
-
+IO_1799_CARD_OUT[169].Output_10 := NOT SafetyOutput.EmergencyCircuitOk.SG701 OR NOT SafetyOutput.EmergencyCircuityOk.AE13
